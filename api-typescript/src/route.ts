@@ -9,7 +9,9 @@ router.get("/health", (req: Request, res: Response) => {
 router.get("/users", (req: Request, res: Response) => {
   res.json([
     { id: 1, nome: "Fernando" },
-    { id: 2, nome: "Maria" }
+    { id: 2, nome: "Sabrina" }
+    { id: 3, nome: "Chanel" }
+    { id: 4, nome: "Fuzi" }    
   ]);
 });
 
